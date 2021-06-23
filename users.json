@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "first_name": "Dimas",
+      "last_name": "Andrianto",
+      "email": "dimas.pamungkas@usetada.com",
+      "token": "11111"
+    },
+    {
+      "id": 2,
+      "first_name": "Rima",
+      "last_name": "wardhani",
+      "email": "rima.wardhani@gmail.com",
+      "token": "22222"
+    },
+    {
+      "id": 3,
+      "first_name": "Rayna",
+      "last_name": "Yumna",
+      "email": "rayna.yumna@gmail.com",
+      "token": "33333"
+    }
+]
