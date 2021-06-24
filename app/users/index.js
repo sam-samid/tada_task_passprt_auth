@@ -11,16 +11,16 @@ function getUserById(id) {
     }
 }
 
-router.get('/users/:id',
+router.get('/users/profiles',
     (req, res)=>{
         let user = getUserById(req.params.id);
         //checking if returing data user or not
-        if (typeof user === 'object' && user !== null) {
+        if (req.user) {
             res.status(200);    
         } else {
             res.status(404); 
         }
-        res.send(user);
+        res.send(req.user);
     }
 ); 
 
